@@ -37,11 +37,11 @@
         <a class="brand" href="#top" aria-label="The Canadian Cannabis Store home">CANADIAN<span>CANNABIS STORE</span></a>
         <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
         <nav class="nav" aria-label="Main navigation">
-          <a href="#" data-order-link>Shop menu</a>
+          <a href="#catalogue">Shop menu</a>
           <a href="#discover">Discover</a>
           <a href="#shop">Browse categories</a>
           <a href="#journal">The journal</a>
-          <a href="#" class="nav-visit" data-order-link>Shop now <span>↗</span></a>
+          <a href="#catalogue" class="nav-visit">Shop now <span>↓</span></a>
         </nav>
       </header>
 
@@ -52,7 +52,7 @@
             <h1>Find your<br /><em>good mood.</em></h1>
             <p class="hero-intro">A bright, friendly place to discover cannabis—without the noise, pressure, or pretense.</p>
             <div class="hero-actions">
-              <a href="#" class="button button-dark" data-order-link>Shop the menu <span>↗</span></a>
+              <a href="#catalogue" class="button button-dark">Shop the menu <span>↓</span></a>
               <a href="#visit" class="text-link">Plan your visit <span>↓</span></a>
             </div>
           </div>
@@ -73,14 +73,32 @@
         </section>
 
         <section class="shop-menu" id="shop" aria-labelledby="shopMenuHeading">
-          <div class="shop-menu-head"><div><p class="eyebrow">SHOP THE LIVE MENU</p><h2 id="shopMenuHeading">Find your<br /><em>favourite.</em></h2></div><p>Current product availability, cart, and checkout are securely managed through our online ordering partner.</p></div>
+          <div class="shop-menu-head"><div><p class="eyebrow">BROWSE THE COLLECTION</p><h2 id="shopMenuHeading">Find your<br /><em>favourite.</em></h2></div><p>A current store catalogue for this website demo. Online ordering will be connected once the owner supplies their approved menu link.</p></div>
           <div class="shop-links">
             <a class="cat-flower" href="#" data-order-link><span class="category-no">01 · EARTHY</span><span class="category-art"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M60 108C59 70 64 43 90 15M60 62C36 59 22 45 17 22c25-2 40 13 43 40ZM62 48C75 27 92 22 108 29c-6 21-22 30-46 28Z"/><circle class="fill" cx="60" cy="60" r="16"/></svg></span><strong>Flower</strong><i>↗</i></a>
             <a class="cat-preroll" href="#" data-order-link><span class="category-no">02 · READY</span><span class="category-art"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="m18 84 74-42 12 21-74 42zM89 43l14-8M27 88l-9 14M55 63l26 45M67 56l25 43"/><path class="fill" d="m92 42 12 21-15 8-12-21z"/></svg></span><strong>Pre-rolls</strong><i>↗</i></a>
             <a class="cat-vapes" href="#" data-order-link><span class="category-no">03 · MODERN</span><span class="category-art"><svg viewBox="0 0 120 120" aria-hidden="true"><rect x="42" y="24" width="34" height="73" rx="14"/><path d="M50 24V13h18v11M51 75c8-8 15-9 24 0M88 39c12 8 13 20 3 31"/><circle class="fill" cx="59" cy="56" r="8"/></svg></span><strong>Vapes +<br/>concentrates</strong><i>↗</i></a>
             <a class="cat-edibles" href="#" data-order-link><span class="category-no">04 · SHARE</span><span class="category-art"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M16 74c8-28 30-43 61-43 13 0 22 3 29 8-13 4-22 13-27 28-7 20-22 31-47 31-11 0-20-2-27-6 4-5 8-11 11-18Z"/><path d="M29 58c14 0 23 4 29 12M47 37c7 8 10 17 9 29M75 42c-1 10-5 18-13 25"/><circle class="fill" cx="84" cy="82" r="14"/></svg></span><strong>Edibles +<br/>drinks</strong><i>↗</i></a>
           </div>
-          <div class="shop-menu-bottom"><p>Adults 19+ only. Please consume responsibly.</p><a href="#" data-order-link class="button button-dark">Open live Weedmaps menu <span>↗</span></a></div>
+          <div class="shop-menu-bottom"><p>Adults 19+ only. Please consume responsibly.</p><a href="#catalogue" class="button button-dark">View the catalogue <span>↓</span></a></div>
+        </section>
+
+        <section class="catalogue" id="catalogue" aria-labelledby="catalogueHeading">
+          <div class="catalogue-heading"><div><p class="eyebrow">MENU SNAPSHOT</p><h2 id="catalogueHeading">The <em>current</em><br />collection.</h2></div><p>Shown for website presentation only. This page does not take payment or add items to a cart. Availability and pricing can change in-store.</p></div>
+          <div class="catalogue-tabs" aria-label="Filter products"><button class="is-active" data-filter="all">All items</button><button data-filter="flower">Flower</button><button data-filter="preroll">Pre-rolls</button><button data-filter="vape">Vapes</button><button data-filter="edible">Edibles + drinks</button></div>
+          <div class="catalogue-grid">
+            <article class="catalogue-card mint" data-category="flower"><span>FLOWER · 3.5G</span><div class="product-mark">HC</div><h3>Chemdawg</h3><p>Houseplant · Big Buds</p><strong>$37.72</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card coral" data-category="flower"><span>FLOWER · 1G</span><div class="product-mark">EC</div><h3>Black Cherry Punch</h3><p>Edison Cannabis Co.</p><strong>$10.72</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card yellow" data-category="flower"><span>FLOWER · 3.5G</span><div class="product-mark">SP</div><h3>GMO Cookies</h3><p>Spinach · Big Buds</p><strong>$30.95</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card lilac" data-category="flower"><span>FLOWER · 3.5G</span><div class="product-mark">MT</div><h3>Strawberry N’ Mintz</h3><p>MTL Cannabis · Big Buds</p><strong>$37.46</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card mint" data-category="flower"><span>GROUND · 7G</span><div class="product-mark">SH</div><h3>Dankmeister XL</h3><p>SHRED · Ground flower</p><strong>$29.00</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card coral" data-category="flower"><span>FLOWER · 3.5G</span><div class="product-mark">GS</div><h3>Golden Goat</h3><p>Good Supply</p><strong>$16.00</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card yellow" data-category="preroll"><span>PRE-ROLLS</span><div class="product-mark">PR</div><h3>Pre-roll selection</h3><p>Current store category</p><strong>Ask in store</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card lilac" data-category="vape"><span>VAPE PENS</span><div class="product-mark">VP</div><h3>Vape selection</h3><p>Cartridges + pods</p><strong>Ask in store</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card coral" data-category="edible"><span>EDIBLES</span><div class="product-mark">ED</div><h3>Edible selection</h3><p>Gummies, chocolates + more</p><strong>Ask in store</strong><button data-order-link>Ordering coming soon</button></article>
+            <article class="catalogue-card mint" data-category="edible"><span>DRINKS</span><div class="product-mark">DR</div><h3>Drink selection</h3><p>Non-carbonated options</p><strong>Ask in store</strong><button data-order-link>Ordering coming soon</button></article>
+          </div>
+          <p class="catalogue-footnote">Product names and menu details reflect the current public store menu when this demo was prepared. Online checkout is intentionally disabled until the owner’s official ordering connection is added.</p>
         </section>
 
         <section class="manifesto">
@@ -112,6 +130,9 @@
         </section>
       </main>
       <footer><a class="brand" href="#top">CANADIAN<span>CANNABIS STORE</span></a><p>© 2026 The Canadian Cannabis Store. Adults 19+ only.</p><div><a href="#top">Instagram</a><a href="#top">Accessibility</a><a href="#top">Privacy</a></div></footer>
+    </div>
+    <div class="order-notice" id="orderNotice" role="dialog" aria-modal="true" aria-labelledby="orderNoticeTitle" hidden>
+      <div class="order-notice-card"><p class="eyebrow">ONLINE ORDERING</p><h2 id="orderNoticeTitle">Almost there.</h2><p id="orderNoticeMessage"></p><button class="button button-dark" id="orderNoticeClose">Got it</button></div>
     </div>
     <script src="config.js"></script>
     <script src="script.js"></script>
