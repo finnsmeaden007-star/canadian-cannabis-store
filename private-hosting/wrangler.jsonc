@@ -1,0 +1,12 @@
+{
+  "name": "canadian-cannabis-private-demo",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-12",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  }
+}
