@@ -1,3 +1,3 @@
 window.JUNIPER_CONFIG = {
-  orderMenuUrl: 'https://weedmaps.com/dispensaries/the-canadian-cannabis-store'
+  orderingStatus: 'Online ordering is being set up. Please visit us in Cookstown or call 705-458-0777 for current availability.'
 };
